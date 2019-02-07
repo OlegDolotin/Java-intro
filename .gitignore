@@ -1,0 +1,6 @@
+# folder logs
+.idea
+# iml files
+*.iml
+# outfolder
+out

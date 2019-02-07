@@ -5,25 +5,28 @@ public class Practise {
 
 
     public static void main(String[] args) {
-        int[]olDarr=new int[]{1,5,7,0,-6,4,8,3,1,-4};
-        removeElementByNum(olDarr, 4);
+        int[]oldArr=new int[]{1,5,7,0,-6,4,8,3,1,-4};
+        oldArr=removeElementByNum(oldArr, 4);
+        for(int i =0; i<oldArr.length; i++){
+            System.out.println(oldArr[i]);
+        }
     }
 
-    public  static int[] removeElementByNum(int[] olDarr,int num){
-        int []newArr=new int[olDarr.length-1];
+    public  static int[] removeElementByNum(int[] oldArr,int num){
+        int []newArr=new int[oldArr.length-1];
         int index = 0;
-        for(int i = 0; i<olDarr.length;i++){
-            if(olDarr[i]==num){
+        for(int i = 0; i<oldArr.length;i++){
+            if(oldArr[i]==num){
                 index=i;
                 break;
             }
         }
-        for(int i = 0, j = 0; i<olDarr.length; i++, j++){
+        for(int i = 0, j = 0; i<oldArr.length; i++, j++){
             if(i==index){
                 --j;
                 continue;
             }else
-                newArr[j]=olDarr[i];
+                newArr[j]=oldArr[i];
         }
         return newArr;
     }
