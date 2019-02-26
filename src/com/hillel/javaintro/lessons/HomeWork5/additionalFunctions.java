@@ -1,4 +1,4 @@
-package com.hillel.javaintro.lessons._5homeWork;
+package com.hillel.javaintro.lessons.HomeWork5;
 
 import java.util.*;
 

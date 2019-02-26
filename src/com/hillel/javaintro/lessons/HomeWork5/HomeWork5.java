@@ -1,14 +1,17 @@
-package com.hillel.javaintro.lessons._5homeWork;
+package com.hillel.javaintro.lessons.HomeWork5;
 
 
-import static com.hillel.javaintro.lessons._5homeWork.additionalFunctions.*;
-import static com.hillel.javaintro.lessons._5.Practise.removeElementByNum;
+import static com.hillel.javaintro.lessons.HomeWork5.additionalFunctions.*;
+import static com.hillel.javaintro.lessons.Lesson5.Practise.removeElementByNum;
 
-public class _5homeWork {
+public class HomeWork5 {
 
     public static void main(String[] args) {
 
         int [] arr = new int [20];
+
+
+
 
         //задание 1
 
