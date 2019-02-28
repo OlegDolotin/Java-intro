@@ -1,6 +1,9 @@
 package com.hillel.javaintro.lessons.main;
 
 
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
 public class MainClass {
     public static void main(String[] args) {
         /*String text ="Hello 67565  7644 8 5 0hello53";
@@ -44,8 +47,11 @@ public class MainClass {
 
         */
 
-        int[][]A = new int[4][3];
-        int p = A.length;
+        int num = 64337;
+        String p = String.valueOf(num);
         System.out.println(p);
+        int size = p.length();
+        System.out.println(size);
+
     }
 }
