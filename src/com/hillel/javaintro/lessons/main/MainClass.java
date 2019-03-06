@@ -1,6 +1,6 @@
 package com.hillel.javaintro.lessons.main;
 
-
+import static com.hillel.javaintro.lessons.test.TestClass.*;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
@@ -47,11 +47,8 @@ public class MainClass {
 
         */
 
-        int num = 64337;
-        String p = String.valueOf(num);
-        System.out.println(p);
-        int size = p.length();
-        System.out.println(size);
+        int[]n = new int[]{3,4,2,3};
+        System.out.println();
 
     }
 }

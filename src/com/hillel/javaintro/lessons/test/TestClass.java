@@ -70,26 +70,7 @@ public class TestClass {
 
 
 
-    public static boolean checkPossibility(int[] nums) {
-        int err = 0;
-        for (int i = 0; i < nums.length - 1; i++) {
-            if (nums[i] > nums[i + 1] && err < 2) {
-                err++;
-                if (!(reculer(nums, i) || avancer(nums, i))) {
-                    err++;
-                }
-            }
-        }
-        return err < 2;
-    }
 
-    private static boolean avancer(int[] nums, int i) {
-        return i < nums.length - 2 && nums[i] <= nums[i + 2] || i==nums.length-2 ;
-    }
-
-    private static boolean reculer(int[] nums, int i) {
-        return (i > 0 && i < nums.length - 2 && nums[i - 1] <= nums[i + 1]) || i==0;
-    }
 
 
 
@@ -272,6 +253,9 @@ public class TestClass {
         Arrays.sort(A);
         return A;
     }
+
+
+
 
 
 
