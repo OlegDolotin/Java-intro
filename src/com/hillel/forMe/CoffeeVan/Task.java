@@ -1,4 +1,4 @@
-package com.hillel.javaintro.lessons.ForMe.CoffeeVan;
+package com.hillel.forMe.Plane.CoffeeVan;
 
 public class Task {
     /*Фургон кофе. Загрузить фургон определенного объема грузом на определенную сумму из различных сортов кофе,

@@ -1,4 +1,4 @@
-package com.hillel.javaintro.lessons.ForMe.Plane;
+package com.hillel.forMe.Plane;
 
 
 
